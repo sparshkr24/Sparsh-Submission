@@ -29,7 +29,8 @@ npm i jest-cli -g
 jest
 ```
 
-![Unit Testing]<img src='./screenshot.png' alt='Screenshot of the App'>
+## Unit Testing
+<img src='./screenshot.png' alt='Screenshot of the App'>
 
 
 
