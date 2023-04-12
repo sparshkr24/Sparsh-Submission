@@ -12,7 +12,9 @@
 ```
 Suppose given days are: { Mon: 2, Tue: 4, Wed: 6, Thu: Undefined, Fri: Undefined, Sat: 12, Sun: 14 }
 i.e Values of Thursday and Friday are missing
-Now, to find value of 'Thursday'
+
+Now, to find value of 'Thursday':
+
 Step 1: Consider value of 'Thursday' = y, value of 'Wednesday' (Previous day) = x1, and Value of 'Tuesday' (Previous of Previous day) = x2.
 i.e { Tue: x2, Wed: x1, Thu: y }
 Step 2: Value of x1 = mean of Previous and Next day, i.e x1 = (x2 + y)/2
