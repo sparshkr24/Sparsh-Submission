@@ -29,7 +29,7 @@ npm i jest-cli -g
 jest
 ```
 
-![Unit Testing]("./screenshot" "optional title")
+![Unit Testing]("./screenshot.png" "optional title")
 
 
 
