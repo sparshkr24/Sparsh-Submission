@@ -29,7 +29,7 @@ npm i jest-cli -g
 jest
 ```
 
-![Unit Testing]("https://github.com/sparshkr24/Sparsh-Submission/blob/master/screenshot.png")
+![Unit Testing]<img src='./screenshot.png' alt='Screenshot of the App'>
 
 
 
