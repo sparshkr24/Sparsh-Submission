@@ -29,7 +29,7 @@ npm i jest-cli -g
 jest
 ```
 
-![Unit Testing]("./screenshot.png" "optional title")
+![Unit Testing]("https://github.com/sparshkr24/Sparsh-Submission/blob/master/screenshot.png")
 
 
 
