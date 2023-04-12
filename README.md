@@ -1,4 +1,4 @@
-#Assignment for Web Development role.
+# Assignment for Web Development role.
 
 ### Problem. Given a dictionary D with key of the form "YYYY-MM-DD" and its corresponding value which is an integer, return a new dictionary 'ans' such that:
 1. its key (type: String) is a day: [Mon, Tue, Wed, Thu, Fri, Sat, Sun].
@@ -8,13 +8,15 @@
 
 ### NOTE: Write Unit tests as well.
 
-##How to Run:
+## How to Run:
 ### 1. clone the repository in you system:
 ```
 git clone https://github.com/sparshkr24/Sparsh-Submission.git
 ```
+
+### 2. Install dependencies from package.json
 ```
-### 2. npm install
+npm install
 ```
 
 ### 3. Install Jest framework for unit testing:
@@ -26,3 +28,7 @@ npm i jest-cli -g
 ```
 jest
 ```
+
+## It's that Simple
+
+## Thank You for considering my application. Looking forward to hearing from you soon.
