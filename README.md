@@ -8,6 +8,20 @@
 
 ### NOTE: Write Unit tests as well.
 
+### Finding value of missing days:
+```
+Suppose give days are: { Mon: 2, Tue: 4, Wed: 6, Thu: Undefined, Fri: Undefined, Sat: 12, Sun: 14 }
+i.e Values of Thursday and Friday are missing
+Now, to find value of 'Thursday'
+Step 1: Consider value of 'Thursday' = y, value of 'Wednesday' (Previous day) = x1, and Value of 'Tuesday' (Previous of Previous day) = x2.
+**i.e { Tue: x2, Wed: x1, Thu: y }**
+Step 2: Value of x1 = mean of Previous and Next day, **i.e x1 = (x2 + y)/2**
+Step 3: Value of **y = (2*x1 - x2)**
+
+**This is how I calculate the values of all the missing days.
+Since Sunday and Monday are always given, that's why this method is guaranteed to always give an answer.**
+```
+
 ## How to Run:
 ### 1. clone the repository in you system:
 ```
